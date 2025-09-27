@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Fruits Dashboard: Price Analysis</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"> <!-- Font Awesome Icons -->
     <link rel="stylesheet" href="styles.css"> <!-- Link to an external CSS file (if desired) -->
     
 </head>
@@ -13,11 +14,15 @@
     <!-- Header Sections -->
     <header>
         <h1>Fruits Price Analysis Dashboard</h1>
-        <p>Exploring Retail Prices, Unit Prices, and Yield Comparisons</p>
+        <p>Discover the price trends, comparisons, and insights on various fruitS in the US</p>
     </header>
 
     <!-- Retail Price Analysis Section -->
-    <section>
+    <section class="chart-section">
+        <div class="section-card fade-in">
+            <div class="icon">
+                <i class="fas fa-dollar-sign"></i> <!-- Icon for Retail Price -->
+        </div>
         <h2>1. Retail Price Analysis</h2>
         <p>This chart shows the retail price trends of different fruit varieties over time. We observe how the pricing fluctuates seasonally and regionally.</p>
         <div class="visualization">
@@ -27,7 +32,11 @@
     </section>
 
     <!-- Price per Unit Analysis Section -->
-    <section>
+    <section class="chart-section">
+        <div class="section-card fade-in">
+            <div class="icon">
+                <i class="fas fa-cogs"></i> <!-- Icon for Price per Unit -->
+            </div>
         <h2>2. Price per Unit Analysis</h2>
         <p>This chart provides an in-depth look at the price per unit of fruits, highlighting pricing disparities across different types of fruits.</p>
         <div class="visualization">
@@ -37,7 +46,11 @@
     </section>
 
     <!-- Price Comparison with Yield Section -->
-    <section>
+    <section class="chart-section">
+        <div class="section-card fade-in">
+            <div class="icon">
+                <i class="fas fa-chart-line"></i> <!-- Icon for Price Comparison -->
+            </div>
         <h2>3. Price Comparison with Yield</h2>
         <p>This visualization compares the retail price of fruits with their yield, helping us understand how pricing correlates with the quantity of fruits available.</p>
         <div class="visualization">
@@ -47,7 +60,11 @@
     </section>
 
     <!-- Retail Price vs Cup Equivalent Price Section -->
-    <section>
+    <section class="chart-section">
+        <div class="section-card fade-in">
+            <div class="icon">
+                <i class="fas fa-cup-straw"></i> <!-- Icon for Cup Equivalent Price -->
+            </div>
         <h2>4. Retail Price vs Cup Equivalent Price</h2>
         <p>This chart compares the retail price of fruits to their cup equivalent price, providing insights into the value offered per serving.</p>
         <div class="visualization">
