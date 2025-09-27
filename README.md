@@ -5,14 +5,21 @@ This analysis looks at the price comparison of fruits in different forms through
 
 ## 2. Key Insights
 ### Retail Price Analysis
-![Retail Price ](assets/regional_sales.png)
+![Retail Price ](assets/Retail-Price-Analysis.png)
 *The graph above shows sales performance across regions. Region A saw the most significant growth during Q2.*
 
 ### Price per unit Analysis
-![Product Category](assets/product_category.png)
+![Product Category](assets/Price-per-unit-Analysis.png)
 *Category X led in sales, while Category Z underperformed in comparison.*
 
 ### Price Comparison with yield
+![Price Comparison](assets/Price-Comparison-with-yield.png)
+
+### Retail Price vs Cup Equivalent Price
+
+![Price Comparison](assets/Retail-Cupequivalent-price.png)
+
+
 
 
 ## 3. Conclusion
