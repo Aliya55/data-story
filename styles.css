@@ -41,7 +41,7 @@ header p {
 }
 
 /* Section Styling */
-.chart-section {
+.chart-section, .intro-section, .insights-section, .conclusion-section {
     padding: 80px 20px;
     display: flex;
     justify-content: center;
