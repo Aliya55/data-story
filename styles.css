@@ -56,7 +56,7 @@ header p {
 }
 
 /* Responsive iframe (for embedding Tableau) */
-iframe {
+img {
     width: 100%;
     height: 600px;
     border: none;
@@ -94,7 +94,7 @@ footer {
         font-size: 1.5em;
     }
 
-    iframe {
+    img {
         height: 400px;
     }
 }
@@ -112,7 +112,7 @@ footer {
         font-size: 1.3em;
     }
 
-    iframe {
+    img {
         height: 300px;
     }
 }
